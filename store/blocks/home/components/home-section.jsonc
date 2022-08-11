@@ -1,0 +1,19 @@
+{
+    "flex-layout.row#home-section": {
+        "children": [
+            "rich-text#text"
+        ],
+        "props": {
+            "blockClass": "home-section"
+        }
+    },
+    "rich-text#text": {
+        "props": {
+            "text": "Visit our [help](https://help.vtex.com/en/faq/what-is-vtex-io) section.\n*Be Bold!*\n**This is italic**",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "font": "t-heading-1",
+            "blockClass": "home-section__text"
+        }
+    }
+}
