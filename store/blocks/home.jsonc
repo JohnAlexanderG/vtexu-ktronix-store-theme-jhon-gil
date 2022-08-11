@@ -1,0 +1,15 @@
+{
+  "store.home": { 
+    "blocks": [
+      "rich-text"
+    ]
+  },
+  "rich-text": { 
+    "props": { 
+      "text": "Visit our [help](https://help.vtex.com/en/faq/what-is-vtex-io) section.\n*Be Bold!*\n**This is italic**",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-1"
+    }
+  }
+}
