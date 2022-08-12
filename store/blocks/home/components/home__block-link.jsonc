@@ -1,0 +1,17 @@
+{
+    "flex-layout.row#home__block-link": {
+        "children": [
+            "link#link-test"
+        ],
+        "props": {
+            "blockClass": "home-link"
+        }
+    },
+    "link#link-test": {
+        "props": {
+            "label": "enlace a github",
+            "href": "https://github.com/JohnAlexanderG",
+            "target": "blank"
+        }
+    }
+}

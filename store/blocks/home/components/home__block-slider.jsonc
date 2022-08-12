@@ -1,0 +1,64 @@
+{
+    "slider-layout#home__block-slider": {
+        "title": "Slider con hijos declarados",
+        "props": {
+            "itemsPerPage": {
+                "desktop": 1,
+                "tablet": 1,
+                "phone": 1
+            },
+            "infinite": true,
+            "autoplay": {
+                "timeout": 4000,
+                "stopOnHover": true
+            }
+        },
+        "children": [
+            "flex-layout.row#home.slider--zero",
+            "image#image2",
+            "image#image3",
+            "image#image4"
+        ]
+    },
+    "flex-layout.row#home.slider--zero": {
+        "children": [
+            "flex-layout.col#home.slider--zero"
+        ]
+    },
+    "flex-layout.col#home.slider--zero": {
+        "children": [
+            "image#image1",
+            "rich-text#text-slider"
+        ]
+    },
+    "rich-text#text-slider": {
+        "props": {
+            "text": "Texto de prueba"
+        }
+    },
+    "image#image1": {
+        "props": {
+            "src": "https://cdn.alkst.co/t3e25bae4/img/474xt_3smadr_4b7bcf6b.jpg"
+        }
+    },
+    "image#image2": {
+        "props": {
+            "src": "https://cdn.alkst.co/t3e25bae4/img/474xt_x48dvh_d2e96b6c.jpg"
+        }
+    },
+    "image#image3": {
+        "props": {
+            "src": "https://cdn.alkst.co/t3e25bae4/img/474xt_uf97yz_07da5d82.jpg"
+        }
+    },
+    "image#image4": {
+        "props": {
+            "src": "https://cdn.alkst.co/t3e25bae4/img/474xt_ve4pxb_172cd253.jpg"
+        }
+    },
+    "image#image5": {
+        "props": {
+            "src": "https://cdn.alkst.co/t3e25bae4/img/474xt_tfug79_fd5beeb7.jpg"
+        }
+    }
+}

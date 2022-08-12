@@ -1,10 +1,10 @@
 {
-    "flex-layout.row#home-section": {
+    "flex-layout.row#home__block-rich-text": {
         "children": [
             "rich-text#text"
         ],
         "props": {
-            "blockClass": "home-section"
+            "blockClass": "text"
         }
     },
     "rich-text#text": {
@@ -13,7 +13,7 @@
             "textAlignment": "CENTER",
             "textPosition": "CENTER",
             "font": "t-heading-1",
-            "blockClass": "home-section__text"
+            "blockClass": "text__content"
         }
     }
 }

@@ -1,0 +1,62 @@
+{
+    "list-context.image-list#home__block-list-context-slider": {
+        "title": "List context slider",
+        "children": [
+            "slider-layout#home.slider_list"
+        ],
+        "props": {
+            "preload": true,
+            "images": [
+                {
+                    "image": "https://cdn.alkst.co/t3e25bae4/img/474xt_m289br_73225e00.jpg",
+                    "description": "Slide 1"
+                    // "link": {},
+                    // "mobileImage": "",
+                    // "width": "100%"
+                },
+                {
+                    "image": "https://cdn.alkst.co/t3e25bae4/img/474xt_rnums7_44da45bc.jpg",
+                    "description": "Slide 2"
+                    // "link": {},
+                    // "mobileImage": "",
+                    // "width": "100%"
+                },
+                {
+                    "image": "https://cdn.alkst.co/t3e25bae4/img/474xt_gvr8wd_0b46313e.jpg",
+                    "description": "Slide 3"
+                    // "link": {},
+                    // "mobileImage": "",
+                    // "width": "100%"
+                },
+                {
+                    "image": "https://cdn.alkst.co/t3e25bae4/img/474xt_b7yt4r_570188e8.jpg",
+                    "description": "Slide 4"
+                    // "link": {},
+                    // "mobileImage": "",
+                    // "width": "100%"
+                },
+                {
+                    "image": "https://cdn.alkst.co/t3e25bae4/img/474xt_rnums7_44da45bc.jpg",
+                    "description": "Slide 5"
+                    // "link": {},
+                    // "mobileImage": "",
+                    // "width": "100%"
+                }
+            ]
+        }
+    },
+    "slider-layout#home.slider_list": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 1,
+                "tablet": 1,
+                "phone": 1
+            },
+            "infinite": true,
+            "autoplay": {
+                "timeout": 2000,
+                "stopOnHover": true
+            }
+        }
+    }
+}
