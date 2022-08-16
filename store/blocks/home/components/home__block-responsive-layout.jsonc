@@ -1,0 +1,61 @@
+{
+    "flex-layout.row#home__wrapper-responsive-layout": {
+        "title": "Component Wrapper responsive-layout block",
+        "children": [
+            "flex-layout.col#home__wrapper-responsive-layout--col"
+        ]
+    },
+    "flex-layout.col#home__wrapper-responsive-layout--col": {
+        "children": [
+            "responsive-layout.phone#home__block-responsive-layout--phone",
+            "responsive-layout.mobile#home__block-responsive-layout--mobile",
+            "responsive-layout.tablet#home__block-responsive-layout--tablet",
+            "responsive-layout.desktop#home__block-responsive-layout--desktop"
+        ],
+        "props": {}
+    },
+    "responsive-layout.phone#home__block-responsive-layout--phone": {
+        "title": "Component phone",
+        "children": [
+            "rich-text#home__text-test--phone"
+        ]
+    },
+    "responsive-layout.mobile#home__block-responsive-layout--mobile": {
+        "title": "Component mobile",
+        "children": [
+            "rich-text#home__text-test--mobile"
+        ]
+    },
+    "responsive-layout.tablet#home__block-responsive-layout--tablet": {
+        "title": "Component tablet",
+        "children": [
+            "rich-text#home__text-test--tablet"
+        ]
+    },
+    "responsive-layout.desktop#home__block-responsive-layout--desktop": {
+        "title": "Component desktop",
+        "children": [
+            "rich-text#home__text-test--desktop"
+        ]
+    },
+    "rich-text#home__text-test--phone": {
+        "props": {
+            "text": "# Screen on phone"
+        }
+    },
+    "rich-text#home__text-test--mobile": {
+        "props": {
+            "text": "# Screen on mobile"
+        }
+    },
+    "rich-text#home__text-test--tablet": {
+        "props": {
+            "text": "# Screen on tablet"
+        }
+    },
+    "rich-text#home__text-test--desktop": {
+        "props": {
+            "text": "# Screen on desktop"
+        }
+    }
+}

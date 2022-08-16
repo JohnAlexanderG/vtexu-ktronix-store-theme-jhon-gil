@@ -1,0 +1,48 @@
+{
+    "flex-layout.row#home__block-flex-layout": {
+        "title": "flex-layout-example",
+        "children": [
+            "flex-layout.col#flex-layot-example-one",
+            "flex-layout.col#flex-layot-example-two"
+        ],
+        "props": {
+            "blockClass": "home__block-flex-layout",
+            "colSizing": "equal"
+            // "preserveLayoutOnMobile": true // preserva los ajustes para modo mobile.
+        }
+    },
+    "flex-layout.col#flex-layot-example-one": {
+        "children": [
+            "image#test-image-example"
+        ],
+        "props": {
+            "verticalAlign": "middle",
+            "width": "40%"
+        }
+    },
+    "image#test-image-example": {
+        "props": {
+            "src": "https://cdn.alkst.co/t3e25bae4/img/474xt_53zef9_38139bd1.jpg"
+        }
+    },
+    "flex-layout.col#flex-layot-example-two": {
+        "children": [
+            "rich-text#section-text-example-title",
+            "rich-text#section-text-example-paragraph"
+        ],
+        "props": {
+            "verticalAlign": "middle",
+            "width": "60%"
+        }
+    },
+    "rich-text#section-text-example-title": {
+        "props": {
+            "text": "Title text!!"
+        }
+    },
+    "rich-text#section-text-example-paragraph": {
+        "props": {
+            "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo quibusdam ad impedit dolorem id reiciendis molestiae fugit cum quidem soluta, iste doloribus ullam at quae praesentium tenetur earum. Aspernatur, earum."
+        }
+    }
+}

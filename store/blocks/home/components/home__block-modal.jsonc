@@ -1,0 +1,60 @@
+{
+    "flex-layout.row#home__block-modals": {
+        "title": "block modal",
+        "children": [
+            "flex-layout.col#home__block-modals--col"
+        ]
+    },
+    "flex-layout.col#home__block-modals--col": {
+        "children": [
+            "modal-trigger#home__block-modal-with-children",
+            "modal-trigger#home__block-modal-with-event"
+        ]
+    },
+    "modal-trigger#home__block-modal-with-children": {
+        "children": [
+            "link#button-trigger-modal",
+            "modal-layout#body-modal"
+        ]
+    },
+    "link#button-trigger-modal": {
+        "title": "Button trigger",
+        "props": {
+            "label": "Click here to open modal",
+            "displayMode": "button",
+            "buttonProps": {
+                "size": "small"
+            },
+            "blockClass": "modal__button-trigger-modal"
+        }
+    },
+    "modal-layout#body-modal": {
+        "children": [
+            "rich-text#text-example-modal-content"
+        ]
+    },
+    "rich-text#text-example-modal-content": {
+        "props": {
+            "text": "This is a modal window"
+        }
+    },
+    "modal-trigger#home__block-modal-with-event": {
+        "children": [
+            "modal-layout#home__modal-layout-event"
+        ],
+        "props": {
+            "trigger": "load",
+            "customPixelEventName": "pageView"
+        }
+    },
+    "modal-layout#home__modal-layout-event": {
+        "children": [
+            "rich-text#home__modal-event-content"
+        ]
+    },
+    "rich-text#home__modal-event-content": {
+        "props": {
+            "text": "event init DOMLoaded"
+        }
+    }
+}
